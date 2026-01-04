@@ -13,12 +13,14 @@ This project demonstrates basic SOC L1 skills by analyzing Windows Event Logs to
 - `logs/` → contains `.evtx` files
   - `powershell-operational.evtx` (Event IDs 4103 + 4104)
   - `security-4688.evtx` (Event ID 4688)
-- `analysis/` → Markdown files to explain your findings
+- `analysis/`
   - `event-4104-analysis.md`
   - `event-4103-analysis.md`
   - `event-4688-analysis.md`
-- `screenshots/` → screenshots of events for reference
-
+- `screenshots/`
+  - `event-4103.png`
+  - `event-4104.png`
+  - `event-4688.png`
 ### Folders Description
 - **logs/** : contains exported `.evtx` files from Windows Event Viewer  
 - **analysis/** : contains Markdown files with analysis of specific events  
